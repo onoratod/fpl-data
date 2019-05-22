@@ -1,14 +1,14 @@
 entry,value
 player_id,427
 web_name,Bennett
-team,West Brom
+team,Wolves
 first_name,Ryan
 second_name,Bennett
 cost_end,4.1
 value_form,0.6
 value_season,21.7
-cost_change_start,1
-cost_start,3.0999999999999996
+cost_change_start,0.1
+cost_start,3.9999999999999996
 dreamteam_count,0
 selected_by_percent,8.0
 total_points,89

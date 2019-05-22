@@ -1,14 +1,14 @@
 entry,value
 player_id,172
 web_name,Sigurdsson
-team,Huddersfield
+team,Everton
 first_name,Gylfi
 second_name,Sigurdsson
 cost_end,7.4
 value_form,0.5
 value_season,24.6
-cost_change_start,-1
-cost_start,8.4
+cost_change_start,-0.1
+cost_start,7.5
 dreamteam_count,3
 selected_by_percent,8.3
 total_points,182

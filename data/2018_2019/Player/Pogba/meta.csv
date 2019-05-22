@@ -1,14 +1,14 @@
 entry,value
 player_id,302
 web_name,Pogba
-team,Southampton
+team,Man Utd
 first_name,Paul
 second_name,Pogba
 cost_end,8.6
 value_form,0.2
 value_season,20.8
-cost_change_start,6
-cost_start,2.5999999999999996
+cost_change_start,0.6
+cost_start,8.0
 dreamteam_count,5
 selected_by_percent,33.7
 total_points,179

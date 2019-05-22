@@ -1,14 +1,14 @@
 entry,value
 player_id,425
 web_name,Doherty
-team,West Brom
+team,Wolves
 first_name,Matt
 second_name,Doherty
 cost_end,5.3
 value_form,1.1
 value_season,27.2
-cost_change_start,8
-cost_start,-2.7
+cost_change_start,0.8
+cost_start,4.5
 dreamteam_count,4
 selected_by_percent,21.9
 total_points,144

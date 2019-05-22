@@ -1,14 +1,14 @@
 entry,value
 player_id,346
 web_name,Elyounoussi
-team,Swansea
+team,Southampton
 first_name,Mohamed
 second_name,Elyounoussi
 cost_end,6.0
 value_form,0.1
 value_season,4.7
-cost_change_start,-5
-cost_start,11.0
+cost_change_start,-0.5
+cost_start,6.5
 dreamteam_count,0
 selected_by_percent,0.1
 total_points,28

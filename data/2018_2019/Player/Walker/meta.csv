@@ -1,14 +1,14 @@
 entry,value
 player_id,265
 web_name,Walker
-team,Newcastle
+team,Man City
 first_name,Kyle
 second_name,Walker
 cost_end,6.4
 value_form,1.0
 value_season,23.4
-cost_change_start,-1
-cost_start,7.4
+cost_change_start,-0.1
+cost_start,6.5
 dreamteam_count,2
 selected_by_percent,12.1
 total_points,150

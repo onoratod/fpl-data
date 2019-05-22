@@ -1,14 +1,14 @@
 entry,value
 player_id,291
 web_name,Bailly
-team,Southampton
+team,Man Utd
 first_name,Eric
 second_name,Bailly
 cost_end,5.0
 value_form,0.1
 value_season,3.2
-cost_change_start,-5
-cost_start,10.0
+cost_change_start,-0.5
+cost_start,5.5
 dreamteam_count,0
 selected_by_percent,1.3
 total_points,16

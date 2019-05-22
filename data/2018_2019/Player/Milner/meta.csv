@@ -1,14 +1,14 @@
 entry,value
 player_id,254
 web_name,Milner
-team,Man Utd
+team,Liverpool
 first_name,James
 second_name,Milner
 cost_end,5.6
 value_form,0.1
 value_season,18.0
-cost_change_start,1
-cost_start,4.6
+cost_change_start,0.1
+cost_start,5.5
 dreamteam_count,1
 selected_by_percent,2.5
 total_points,101

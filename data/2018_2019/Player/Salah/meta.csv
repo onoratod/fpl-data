@@ -1,14 +1,14 @@
 entry,value
 player_id,253
 web_name,Salah
-team,Man Utd
+team,Liverpool
 first_name,Mohamed
 second_name,Salah
 cost_end,13.2
 value_form,0.7
 value_season,19.6
-cost_change_start,2
-cost_start,11.2
+cost_change_start,0.2
+cost_start,13.0
 dreamteam_count,6
 selected_by_percent,33.9
 total_points,259

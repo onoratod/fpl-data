@@ -1,14 +1,14 @@
 entry,value
 player_id,246
 web_name,van Dijk
-team,Man Utd
+team,Liverpool
 first_name,Virgil
 second_name,van Dijk
 cost_end,6.7
 value_form,1.0
 value_season,31.0
-cost_change_start,7
-cost_start,-0.2999999999999998
+cost_change_start,0.7
+cost_start,6.0
 dreamteam_count,4
 selected_by_percent,32.3
 total_points,208

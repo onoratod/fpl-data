@@ -1,14 +1,14 @@
 entry,value
 player_id,145
 web_name,Wan-Bissaka
-team,Everton
+team,Crystal Palace
 first_name,Aaron
 second_name,Wan-Bissaka
 cost_end,4.6
 value_form,1.0
 value_season,26.1
-cost_change_start,6
-cost_start,-1.4000000000000004
+cost_change_start,0.6
+cost_start,3.9999999999999996
 dreamteam_count,2
 selected_by_percent,26.3
 total_points,120

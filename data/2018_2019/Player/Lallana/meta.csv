@@ -1,14 +1,14 @@
 entry,value
 player_id,250
 web_name,Lallana
-team,Man Utd
+team,Liverpool
 first_name,Adam
 second_name,Lallana
 cost_end,6.9
 value_form,0.0
 value_season,3.3
-cost_change_start,-1
-cost_start,7.9
+cost_change_start,-0.1
+cost_start,7.0
 dreamteam_count,0
 selected_by_percent,0.6
 total_points,23

@@ -1,14 +1,14 @@
 entry,value
 player_id,280
 web_name,Agüero
-team,Newcastle
+team,Man City
 first_name,Sergio
 second_name,Agüero
 cost_end,12.0
 value_form,0.4
 value_season,16.8
-cost_change_start,10
-cost_start,2.0
+cost_change_start,1.0
+cost_start,11.0
 dreamteam_count,4
 selected_by_percent,42.7
 total_points,201

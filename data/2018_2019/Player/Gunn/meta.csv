@@ -1,14 +1,14 @@
 entry,value
 player_id,452
 web_name,Gunn
-team,Swansea
+team,Southampton
 first_name,Angus
 second_name,Gunn
 cost_end,4.3
 value_form,0.3
 value_season,10.9
-cost_change_start,-2
-cost_start,6.3
+cost_change_start,-0.2
+cost_start,4.5
 dreamteam_count,2
 selected_by_percent,1.1
 total_points,47

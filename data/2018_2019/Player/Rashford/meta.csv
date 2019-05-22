@@ -1,14 +1,14 @@
 entry,value
 player_id,305
 web_name,Rashford
-team,Southampton
+team,Man Utd
 first_name,Marcus
 second_name,Rashford
 cost_end,7.3
 value_form,0.3
 value_season,17.5
-cost_change_start,3
-cost_start,4.3
+cost_change_start,0.3
+cost_start,7.0
 dreamteam_count,3
 selected_by_percent,21.9
 total_points,128

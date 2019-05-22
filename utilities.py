@@ -18,34 +18,36 @@ def team_converter(team_id):
     elif team_id == 4:
         return "Burnley"
     elif team_id == 5:
-        return "Chelsea"
+        return "Cardiff"
     elif team_id == 6:
-        return "Crystal Palace"
+        return "Chelsea"
     elif team_id == 7:
-        return "Everton"
+        return "Crystal Palace"
     elif team_id == 8:
-        return "Huddersfield"
+        return "Everton"
     elif team_id == 9:
-        return "Leicester"
+        return "Fulham"
     elif team_id == 10:
-        return "Liverpool"
+        return "Huddersfield"
     elif team_id == 11:
-        return "Man City"
+        return "Leicester"
     elif team_id == 12:
-        return "Man Utd"
+        return "Liverpool"
     elif team_id == 13:
-        return "Newcastle"
+        return "Man City"
     elif team_id == 14:
-        return "Southampton"
+        return "Man Utd"
     elif team_id == 15:
-        return "Stoke"
+        return "Newcastle"
     elif team_id == 16:
-        return "Swansea"
+        return "Southampton"
     elif team_id == 17:
         return "Spurs"
     elif team_id == 18:
         return "Watford"
-    return "West Brom"
+    elif team_id == 19:
+        return "West Ham"
+    return "Wolves"
 
 def position_converter(position):
     """

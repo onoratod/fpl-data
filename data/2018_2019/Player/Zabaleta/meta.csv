@@ -1,14 +1,14 @@
 entry,value
 player_id,405
 web_name,Zabaleta
-team,West Brom
+team,West Ham
 first_name,Pablo
 second_name,Zabaleta
 cost_end,4.3
 value_form,0.2
 value_season,13.0
-cost_change_start,-2
-cost_start,6.3
+cost_change_start,-0.2
+cost_start,4.5
 dreamteam_count,0
 selected_by_percent,1.7
 total_points,56

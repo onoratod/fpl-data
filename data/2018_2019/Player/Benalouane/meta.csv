@@ -1,14 +1,14 @@
 entry,value
 player_id,218
 web_name,Benalouane
-team,Man City
+team,Leicester
 first_name,Yohan
 second_name,Benalouane
 cost_end,3.9
 value_form,0.0
 value_season,0.0
-cost_change_start,-1
-cost_start,4.9
+cost_change_start,-0.1
+cost_start,4.0
 dreamteam_count,0
 selected_by_percent,0.7
 total_points,0

@@ -1,14 +1,14 @@
 entry,value
 player_id,133
 web_name,Giroud
-team,Crystal Palace
+team,Chelsea
 first_name,Olivier
 second_name,Giroud
 cost_end,7.7
 value_form,0.1
 value_season,7.1
-cost_change_start,-3
-cost_start,10.7
+cost_change_start,-0.3
+cost_start,8.0
 dreamteam_count,0
 selected_by_percent,1.9
 total_points,55

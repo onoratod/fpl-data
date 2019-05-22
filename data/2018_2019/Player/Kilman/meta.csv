@@ -1,13 +1,13 @@
 entry,value
 player_id,567
 web_name,Kilman
-team,West Brom
+team,Wolves
 first_name,Max
 second_name,Kilman
 cost_end,4.0
 value_form,0.1
 value_season,0.3
-cost_change_start,0
+cost_change_start,0.0
 cost_start,4.0
 dreamteam_count,0
 selected_by_percent,0.0

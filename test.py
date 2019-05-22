@@ -25,7 +25,7 @@ def get_player_meta(player):
     meta["cost_end"] = src["now_cost"]/10
     meta["value_form"] = src["value_form"]
     meta["value_season"] = src["value_season"]
-    meta["cost_change_start"] = src["cost_change_start"]
+    meta["cost_change_start"] = src["cost_change_start"]/10
     meta["cost_start"] = meta["cost_end"]-meta["cost_change_start"]
     meta["dreamteam_count"] = src["dreamteam_count"]
     meta["selected_by_percent"] = src["selected_by_percent"]
@@ -73,7 +73,7 @@ for ply in players:
         os.makedirs(player_path)
         
     meta_df.to_csv(os.path.join(player_path,"meta.csv"))
-    
+
     
 
 

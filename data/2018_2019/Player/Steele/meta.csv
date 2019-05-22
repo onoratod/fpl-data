@@ -7,8 +7,8 @@ second_name,Steele
 cost_end,3.9
 value_form,0.0
 value_season,0.0
-cost_change_start,-1
-cost_start,4.9
+cost_change_start,-0.1
+cost_start,4.0
 dreamteam_count,0
 selected_by_percent,1.3
 total_points,0

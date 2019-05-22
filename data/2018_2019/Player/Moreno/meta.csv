@@ -1,14 +1,14 @@
 entry,value
 player_id,240
 web_name,Moreno
-team,Man Utd
+team,Liverpool
 first_name,Alberto
 second_name,Moreno
 cost_end,4.1
 value_form,0.0
 value_season,1.0
-cost_change_start,-4
-cost_start,8.1
+cost_change_start,-0.4
+cost_start,4.5
 dreamteam_count,0
 selected_by_percent,0.2
 total_points,4

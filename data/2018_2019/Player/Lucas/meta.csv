@@ -1,14 +1,14 @@
 entry,value
 player_id,502
 web_name,Lucas
-team,West Brom
+team,West Ham
 first_name,Lucas
 second_name,Pérez
 cost_end,6.2
 value_form,0.1
 value_season,5.3
-cost_change_start,-3
-cost_start,9.2
+cost_change_start,-0.3
+cost_start,6.5
 dreamteam_count,1
 selected_by_percent,0.1
 total_points,33

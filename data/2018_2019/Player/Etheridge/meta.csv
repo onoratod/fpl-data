@@ -1,14 +1,14 @@
 entry,value
 player_id,88
 web_name,Etheridge
-team,Chelsea
+team,Cardiff
 first_name,Neil
 second_name,Etheridge
 cost_end,4.6
 value_form,1.1
 value_season,33.5
-cost_change_start,1
-cost_start,3.5999999999999996
+cost_change_start,0.1
+cost_start,4.5
 dreamteam_count,5
 selected_by_percent,10.2
 total_points,154

@@ -1,13 +1,13 @@
 entry,value
 player_id,150
 web_name,Milivojevic
-team,Everton
+team,Crystal Palace
 first_name,Luka
 second_name,Milivojevic
 cost_end,6.5
 value_form,0.3
 value_season,25.5
-cost_change_start,0
+cost_change_start,0.0
 cost_start,6.5
 dreamteam_count,4
 selected_by_percent,10.6

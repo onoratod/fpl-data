@@ -1,13 +1,13 @@
 entry,value
 player_id,234
 web_name,Vardy
-team,Man City
+team,Leicester
 first_name,Jamie
 second_name,Vardy
 cost_end,9.0
 value_form,0.6
 value_season,19.3
-cost_change_start,0
+cost_change_start,0.0
 cost_start,9.0
 dreamteam_count,4
 selected_by_percent,10.3

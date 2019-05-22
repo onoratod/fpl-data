@@ -1,14 +1,14 @@
 entry,value
 player_id,588
 web_name,Barreca
-team,Stoke
+team,Newcastle
 first_name,Antonio
 second_name,Barreca
 cost_end,4.1
 value_form,0.0
 value_season,0.2
-cost_change_start,-4
-cost_start,8.1
+cost_change_start,-0.4
+cost_start,4.5
 dreamteam_count,0
 selected_by_percent,0.0
 total_points,1

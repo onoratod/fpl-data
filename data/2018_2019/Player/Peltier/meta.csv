@@ -1,14 +1,14 @@
 entry,value
 player_id,95
 web_name,Peltier
-team,Chelsea
+team,Cardiff
 first_name,Lee
 second_name,Peltier
 cost_end,3.9
 value_form,0.8
 value_season,11.0
-cost_change_start,-1
-cost_start,4.9
+cost_change_start,-0.1
+cost_start,4.0
 dreamteam_count,1
 selected_by_percent,4.0
 total_points,43

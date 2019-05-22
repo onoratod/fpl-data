@@ -1,14 +1,14 @@
 entry,value
 player_id,347
 web_name,Long
-team,Swansea
+team,Southampton
 first_name,Shane
 second_name,Long
 cost_end,4.7
 value_form,0.8
 value_season,14.0
-cost_change_start,-3
-cost_start,7.7
+cost_change_start,-0.3
+cost_start,5.0
 dreamteam_count,1
 selected_by_percent,4.9
 total_points,66

@@ -1,14 +1,14 @@
 entry,value
 player_id,414
 web_name,Lanzini
-team,West Brom
+team,West Ham
 first_name,Manuel
 second_name,Lanzini
 cost_end,6.4
 value_form,0.5
 value_season,4.8
-cost_change_start,-1
-cost_start,7.4
+cost_change_start,-0.1
+cost_start,6.5
 dreamteam_count,0
 selected_by_percent,0.1
 total_points,31

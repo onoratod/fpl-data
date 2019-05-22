@@ -1,14 +1,14 @@
 entry,value
 player_id,251
 web_name,Mané
-team,Man Utd
+team,Liverpool
 first_name,Sadio
 second_name,Mané
 cost_end,10.3
 value_form,1.0
 value_season,22.4
-cost_change_start,8
-cost_start,2.3000000000000007
+cost_change_start,0.8
+cost_start,9.5
 dreamteam_count,8
 selected_by_percent,38.6
 total_points,231

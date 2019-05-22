@@ -1,14 +1,14 @@
 entry,value
 player_id,329
 web_name,Forster
-team,Swansea
+team,Southampton
 first_name,Fraser
 second_name,Forster
 cost_end,4.2
 value_form,0.1
 value_season,0.5
-cost_change_start,-3
-cost_start,7.2
+cost_change_start,-0.3
+cost_start,4.5
 dreamteam_count,0
 selected_by_percent,0.6
 total_points,2

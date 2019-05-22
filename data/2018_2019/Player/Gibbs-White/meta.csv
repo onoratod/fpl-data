@@ -1,14 +1,14 @@
 entry,value
 player_id,448
 web_name,Gibbs-White
-team,West Brom
+team,Wolves
 first_name,Morgan
 second_name,Gibbs-White
 cost_end,4.3
 value_form,0.2
 value_season,8.6
-cost_change_start,-2
-cost_start,6.3
+cost_change_start,-0.2
+cost_start,4.5
 dreamteam_count,0
 selected_by_percent,0.5
 total_points,37

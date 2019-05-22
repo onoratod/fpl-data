@@ -7,8 +7,8 @@ second_name,Westwood
 cost_end,4.6
 value_form,0.4
 value_season,24.1
-cost_change_start,1
-cost_start,3.5999999999999996
+cost_change_start,0.1
+cost_start,4.5
 dreamteam_count,1
 selected_by_percent,3.1
 total_points,111
