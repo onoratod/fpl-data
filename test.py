@@ -9,7 +9,7 @@ import fpl, os
 import pandas as pd
 from utilities import team_converter, position_converter
 
-gitpath = "A:\\Github\\fpl-data\\data\\2018-2019"
+gitpath = "A:\\Github\\fpl-data\\data\\2018_2019"
 
 def get_player_meta(player):
     # initialiaze meta dictionary
