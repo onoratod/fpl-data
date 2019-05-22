@@ -61,7 +61,7 @@ def get_player_meta(player):
     return(df)
 
 # Loop over players, harvest meta data
-players = fpl.FPL().get_players(player_ids=[20, 300])
+players = fpl.FPL().get_players()
 
 for ply in players:
     meta_df = get_player_meta(ply)
