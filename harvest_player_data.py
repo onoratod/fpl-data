@@ -78,7 +78,9 @@ def get_player_data(player):
     
     # Balance the data on gameweeks
     data_df = pd.DataFrame.from_dict(data)
-    data_df = data_df.append(pd.Series([np.nan]*len(data_df.columns), index=list(data_df.columns)), ignore_index=True)
+    missing_gws = 38-len(data_df.columns)
+    if missing_gws>0:
+        data_df = data_df.append(pd.Series([np.nan]*missing_gws, index=list(data_df.columns)), ignore_index=True)
     data_df.index = data_df.index+1
     
     # Rename some columns
