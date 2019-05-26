@@ -6,7 +6,7 @@ Created on Sun May 26 13:51:05 2019
 """
 
 
-import fpl, os
+import fpl, os, copy
 import pandas as pd
 import numpy as np
 from utilities import team_converter, position_converter
@@ -65,7 +65,7 @@ data_shell = {
 
 def get_player_data(player):
     # initialiaze data dictionary
-    data = data_shell
+    data = copy.deepcopy(data_shell)
     history = player.history
     
     for gw in range(1, len(history)):
@@ -86,7 +86,6 @@ def get_player_data(player):
                                "team_h_score" : 'home_score',
                                "team_a_score" : 'away_score'})
     
-
     return data_df
 
 
@@ -95,16 +94,15 @@ def get_player_data(player):
 players = fpl.FPL().get_players()
 
 for ply in players:
-    data_df = get_player_data(ply)
+    ply_data = get_player_data(ply)
     ply_name = ply.name
     
     print("Harvesting... " + ply_name)
-    
+        
     # Check whether player directory exists
     player_path = os.path.join(gitpath, "Player", ply_name)
     if not os.path.exists(player_path):
         os.makedirs(player_path)
         
-    data_df.to_csv(os.path.join(player_path,"data.csv"))
-
+    ply_data.to_csv(os.path.join(player_path,"data.csv"))
     
