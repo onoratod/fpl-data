@@ -68,7 +68,7 @@ def get_player_data(player):
     data = copy.deepcopy(data_shell)
     history = player.history
     
-    for gw in range(1, len(history)):
+    for gw in range(0, len(history)):
         for key, value in data.items():
             data[key].append(history[gw][key])
     
