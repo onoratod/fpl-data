@@ -1,0 +1,39 @@
+,team_h_score,team_a_score,was_home,opponent_team
+1,0,2,False,Arsenal
+2,6,1,True,Huddersfield
+3,1,1,False,Wolves
+4,2,1,True,Newcastle
+5,3,0,True,Fulham
+6,0,5,False,Cardiff
+7,2,0,True,Brighton
+8,0,0,False,Liverpool
+9,5,0,True,Burnley
+10,0,1,False,Spurs
+11,6,1,True,Southampton
+12,3,1,True,Man Utd
+13,0,4,False,West Ham
+14,3,1,True,Bournemouth
+15,1,2,False,Watford
+16,2,0,False,Chelsea
+17,3,1,True,Everton
+18,2,3,True,Crystal Palace
+19,2,1,False,Leicester
+20,1,3,False,Southampton
+21,2,1,True,Liverpool
+22,3,0,True,Wolves
+23,0,3,False,Huddersfield
+24,2,1,False,Newcastle
+25,3,1,True,Arsenal
+26,0,2,False,Everton
+27,6,0,True,Chelsea
+28,1,0,True,West Ham
+29,0,1,False,Bournemouth
+30,3,1,True,Watford
+31,0,2,False,Fulham
+32,2,0,True,Cardiff
+33,1,3,False,Crystal Palace
+34,1,0,True,Spurs
+35,0,2,False,Man Utd
+36,0,1,False,Burnley
+37,1,0,True,Leicester
+38,1,4,False,Brighton
