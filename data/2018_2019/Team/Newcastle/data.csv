@@ -1,39 +1,39 @@
-,team_h_score,team_a_score,was_home,opponent_team
-1,1,2,True,Spurs
-2,0,0,False,Cardiff
-3,1,2,True,Chelsea
-4,2,1,False,Man City
-5,1,2,True,Arsenal
-6,0,0,False,Crystal Palace
-7,0,2,True,Leicester
-8,3,2,False,Man Utd
-9,0,1,True,Brighton
-10,0,0,False,Southampton
-11,1,0,True,Watford
-12,2,1,True,Bournemouth
-13,1,2,False,Burnley
-14,0,3,True,West Ham
-15,1,1,False,Everton
-16,1,2,True,Wolves
-17,0,1,False,Huddersfield
-18,0,0,True,Fulham
-19,4,0,False,Liverpool
-20,1,1,False,Watford
-21,0,2,True,Man Utd
-22,2,1,False,Chelsea
-23,3,0,True,Cardiff
-24,2,1,True,Man City
-25,1,0,False,Spurs
-26,1,1,False,Wolves
-27,2,0,True,Huddersfield
-28,2,0,True,Burnley
-29,2,0,False,West Ham
-30,3,2,True,Everton
-31,2,2,False,Bournemouth
-32,2,0,False,Arsenal
-33,0,1,True,Crystal Palace
-34,0,1,False,Leicester
-35,3,1,True,Southampton
-36,1,1,False,Brighton
-37,2,3,True,Liverpool
-38,0,4,False,Fulham
+,was_home,opponent_team,team_score,opponent_score
+1,True,Spurs,1,2
+2,False,Cardiff,0,0
+3,True,Chelsea,1,2
+4,False,Man City,1,2
+5,True,Arsenal,1,2
+6,False,Crystal Palace,0,0
+7,True,Leicester,0,2
+8,False,Man Utd,2,3
+9,True,Brighton,0,1
+10,False,Southampton,0,0
+11,True,Watford,1,0
+12,True,Bournemouth,2,1
+13,False,Burnley,2,1
+14,True,West Ham,0,3
+15,False,Everton,1,1
+16,True,Wolves,1,2
+17,False,Huddersfield,1,0
+18,True,Fulham,0,0
+19,False,Liverpool,0,4
+20,False,Watford,1,1
+21,True,Man Utd,0,2
+22,False,Chelsea,1,2
+23,True,Cardiff,3,0
+24,True,Man City,2,1
+25,False,Spurs,0,1
+26,False,Wolves,1,1
+27,True,Huddersfield,2,0
+28,True,Burnley,2,0
+29,False,West Ham,0,2
+30,True,Everton,3,2
+31,False,Bournemouth,2,2
+32,False,Arsenal,0,2
+33,True,Crystal Palace,0,1
+34,False,Leicester,1,0
+35,True,Southampton,3,1
+36,False,Brighton,1,1
+37,True,Liverpool,2,3
+38,False,Fulham,4,0

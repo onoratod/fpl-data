@@ -19,9 +19,10 @@ class Player(object):
     A class representing a player in the Fantasy Premier League.
     """
     def __init__(self, name):
-        self.name=name
-        self.meta=pd.read_csv(os.path.join(gitpath, "Player", self.name, "meta.csv"))
-        self.data=pd.read_csv(os.path.join(gitpath, "Player", self.name, "data.csv"))
+        self.name = name
+        self.meta = pd.read_csv(os.path.join(gitpath, "Player", self.name, "meta.csv"))
+        self.data = pd.read_csv(os.path.join(gitpath, "Player", self.name, "data.csv"))
+        self.team = meta_df.query("entry=='team'").iloc[0]["value"]
         
         self.params = {
             'start' : None,
@@ -36,14 +37,17 @@ class Player(object):
         
         self.params['start'] = np.mean(started)
         
-        # Probability of scoring given you were playing (Bernoulli)
-        goals = self.data.loc[self.data['minutes']>10]['goals_scored']
-        scored = [goal>0 for goal in goals]
+        # Probability you scored given your team scored (Bernoulli)
+        team_data = pd.read_csv(os.path.join(gitpath, "Team", self.team, "data.csv"))
+        team_goals = np.sum(team_data['team_score'])
+        player_goals = np.sum(self.data['goals_scored'])
+        
                 
-        self.params['score'] = np.mean(scored)
+        self.params['score'] = player_goals/team_goals
         
         # Probability of assist, given you were playing (Bernoulli)
-        assists = self.data.loc[self.data['minutes']>10]
+        assists = self.data.loc[self.data['minutes']>10]['assists']
+        assisted = [assist>0 for goal in goals]
 
 test = Player('Hazard')    
 test.init_params()

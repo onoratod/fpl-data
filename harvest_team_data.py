@@ -39,10 +39,24 @@ def get_team_data(team):
     # Make dataframe
     data_df = pd.DataFrame.from_dict(data)
     
+    # Team/opponent score
+    data_df['team_score']=0
+    data_df['opponent_score']=0
+    
+    data_df.loc[data_df['was_home'] == True, 'team_score'] = data_df.loc[data_df['was_home'] == True, 'team_h_score']
+    data_df.loc[data_df['was_home'] == False, 'team_score'] = data_df.loc[data_df['was_home'] == False, 'team_a_score']
+    
+    data_df.loc[data_df['was_home'] == True, 'opponent_score'] = data_df.loc[data_df['was_home'] == True, 'team_a_score']
+    data_df.loc[data_df['was_home'] == False, 'opponent_score'] = data_df.loc[data_df['was_home'] == False, 'team_h_score']
+    
+    data_df.drop(['team_h_score', 'team_a_score'], axis=1, inplace=True)
+
     # Make index gameweek
     data_df.index += 1
     
     return data_df
+
+
 
 # Loop over teams, harvest data
 teams = fpl.FPL().get_teams()
@@ -59,4 +73,3 @@ for team in teams:
         os.makedirs(team_path)
         
     team_data.to_csv(os.path.join(team_path,"data.csv"))
-    
