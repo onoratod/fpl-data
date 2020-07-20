@@ -5,6 +5,26 @@ Archive of data from FPL API.
 
 Here we document the various endpoints of the public FPL API. 
 
+- [Endpoints](#endpoints)
+- [Bootstrap Static](#bootstrap-static)
+  + [Attributes](#attributes)
+    - [`events` - Array](#-events----array)
+    - [`game_settings` - JSON Object](#-game-settings----json-object)
+    - [`phases` - Array](#-phases----array)
+    - [`teams` - Array](#-teams----array)
+    - [`total_players` - Integer](#-total-players----integer)
+    - [`elements` - Array](#-elements----array)
+    - [`element_stats` - Array](#-element-stats----array)
+    - [`element_types` - Array](#-element-types----array)
+- [Fixtures](#fixtures)
+- [Gameweek Fixtures](#gameweek-fixtures)
+- [Gameweek Live](#gameweek-live)
+- [League Classic](#league-classic)
+  + [Attributes](#attributes-1)
+    - [`league` - JSON Object](#-league----json-object)
+    - [`new_entries` - JSON Object](#-new-entries----json-object)
+    - [`standings` - JSON Object](#-standings----json-object)
+
 ## Endpoints 
 
 - https://fantasy.premierleague.com/api/bootstrap-static/
