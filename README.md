@@ -32,6 +32,11 @@ Here we document the various endpoints of the public FPL API.
 - https://fantasy.premierleague.com/api/fixtures/?event={event_id}
 - https://fantasy.premierleague.com/api/event/{event_id}/live/
 - https://fantasy.premierleague.com/api/leagues-classic/{league_id}/standings/
+- https://fantasy.premierleague.com/api/element-summary/{element_id}/
+- https://fantasy.premierleague.com/api/entry/{entry_id}/
+- https://fantasy.premierleague.com/api/entry/{entry_id}/cup/
+- https://fantasy.premierleague.com/api/entry/{entry_id}/history/
+
 
 ## Bootstrap Static
 
@@ -408,7 +413,15 @@ Example:
 ## League Classic
 
 This endpoint returns info on a classic league represented by a JSON Object. The leauge id for the 
-overall league is **314**.
+overall league is **314**. Example:
+
+```javascript
+{
+  'league' : {...},
+  'new_entries' : {...},
+  'standings' : {...}
+}
+```
 
 ### Attributes
 
@@ -473,4 +486,221 @@ to the endpoint URL. For instance, to go the 10th page of the overall rankings y
 
 ```
 https://fantasy.premierleague.com/api/leagues-classic/314/standings/?page_standings=10
+```
+
+## Player
+
+This endpoint returns current and historic information for a given element (player) represented as a JSON Object. Example:
+
+```javascript
+{
+  'fixtures' : [...],
+  'history' : [...],
+  'history_past' : [...]
+}
+```
+
+### Attributes
+
+#### `fixtures` - Array
+
+Array of upcoming fixtures, represented as JSON Objects, for the given element for the current season. Example:
+
+```javascript
+[
+  {
+    'id' : 364, 
+    'code' : 1060065, 
+    'team_h' : 10, 
+    'team_h_score' : null, 
+    'team_a' : 6, 
+    'team_a_score' : null,
+    'event' : 46, 
+    'finished' : false, 
+    'minutes' : 0,
+    'provisional_start_time' : false, 
+    'kickoff_time' : '2020-07-22T19:15:00Z',
+    'event_name' : 'Gameweek 37+',
+    'is_home' : true,
+    'difficulty' : 4
+  }, 
+  ...
+]
+```
+
+#### `history` - Array
+
+Array of past fixutes, represented as JSON Objects, for the given element in the current season. Example:
+
+```javascript
+[
+  {
+    'element' : 191, 
+    'fixture' : 1, 
+    'opponent_team' : 14, 
+    'total_points' : 12, 
+    'was_home' : true,
+    'kickoff_time' : '2019-08-09T19:00:00Z', 
+    'team_h_score' : 4, 
+    'team_a_score' : 1, 
+    'round' : 1, 
+    'minutes' : 90,
+    'goals_scored' : 1, 
+    'assists' : 1, 
+    'clean_sheets' : 0, 
+    'goals_conceded' : 0, 
+    'own_goals' : 0, 
+    'penalties_saved' : 0,
+    'penalties_missed' : 0, 
+    'yellow_cards' : 0, 
+    'red_cards' : 0,
+    'saves' : 0,
+    'bonus' : 2, 
+    'bps' : 40,
+    'influence' : '54.8',
+    'creativity' : '39.7', 
+    'threat' : '39.0', 
+    'ict_index' : '13.4',
+    'value' : 125, 
+    'transfers_balance' : 0,
+    'selected' : 2375465,
+    'transfers_in' : 0,
+    'transfers_out' : 0
+  }, 
+  ...
+]
+```
+
+
+#### `history_past` - Array
+
+Array of historic FPL performances, represented as JSON Objects, for the given element. Example: 
+
+```javascript
+[
+  {
+    'season_name' : '2013/14',
+    'element_code' : 118748, 
+    'start_cost' : 65, 
+    'end_cost' : 55,
+    'total_points' : 31, 
+    'minutes' : 501, 
+    'goals_scored' : 2, 
+    'assists' : 1, 
+    'clean_sheets' : 1, 
+    'goals_conceded' : 2, 
+    'own_goals' : 0,
+    'penalties_saved' : 0,
+    'penalties_missed' : 0,
+    'yellow_cards' : 1,
+    'red_cards' : 0,
+    'saves' : 0,
+    'bonus' : 3,
+    'bps' : 25, 
+    'influence' : '0.0',
+    'creativity' : '0.0',
+    'threat' : '0.0',
+    'ict_index' : '0.0'
+  },
+  ...
+]
+```
+
+## Entry
+
+This endpoint returns general information for a given entry (FPL player), represented by a JSON Object. Example:
+
+```javascript
+{
+  'id' : 1356078, 
+  'joined_time' : '2019-07-22T17:21:21.127744Z',
+  'started_time' : 1, 
+  'favourite_team' : null,
+  'player_first_name' : 'John',
+  'player_last_name' : 'Doe',
+  'player_region_id' : 229,
+  'player_region_name' : 'USA',
+  'player_region_iso_code_short' : 'US', 
+  'player_region_iso_code_long' : 'USA', 
+  'summary_overall_'points' : 2135, 
+  'summary_overall_rank' : 149677,
+  'summary_event_points' : 24, 
+  'summary_event_rank' : 1844270, 
+  'current_event' : 46, 
+  'leagues' : {
+    'classic' : [
+      {
+        'id' : 249, 
+        'name' : 'USA',
+        'short_name' : 'region-229',
+        'created' : '2019-06-25T11:25:48.745601Z', 
+        'closed' : false, 
+        'rank' : null,
+        'max_entries' : null,
+        'league_type' : 's',
+        'scoring' : 'c',
+        'admin_entry' : null,
+        'start_event' : 1, 
+        'entry_rank' : 5699,
+        'entry_last_rank' : 5619, 
+        'entry_can_leave' : false,
+        'evntry_can_admin' : false, 
+        'entry_can_invite' : false
+      },
+      ...
+    ],
+    'h2h' : [],
+    'cup' : {
+      'matches' : [
+        {
+          'id' : 46396468, 
+          'entry_1_entry' : 1356078, 
+          'entry_1_name' : 'Go Team',
+          'entry_1_player_name' : 'John Doe',
+          'entry_1_points' : 59,
+          'entry_1_win' : 0,
+          'entry_1_draw' : 0,
+          'entry_1_loss' : 0,
+          'entry_1_total' : 0,
+          'entry_2_entry' : 266049, 
+          'entry_2_name' : 'Goo Team',
+          'entry_2_player_name' : 'Jane Doe',
+          'entry_2_points' : 71, 
+          'entry_2_win' : 0,
+          'entry_2_draw' : 0,
+          'entry_2_loss' : 0,
+          'entry_2_total' : 0,
+          'is_knockout' : true, 
+          'winner' : 266049,
+          'seed_value' : null,
+          'event' : 22,
+          'tiebreak' : null
+        },
+        ...
+      ],
+      'status' : {
+        'qualification_event' : 16,
+        'qualification_numbers' : 4194304,
+        'qualifcation_rank' : 3115989, 
+        'qualification_state' : 'QUALIFIED'
+      }
+    }
+  },
+  'name' : 'Go Team',
+  'kit' : null,
+  'last_deadline_bank' : 3,
+  'last_deadline_value' : 1068,
+  'last_deadline_total_transfers' : 62
+}
+```
+
+## Entry Cup
+
+This endpoint returns information about an entry's cup histroy for the current season, represented as JSON Object. The `cup_matches` array follows the same format as the `matches` entry under `leagues` > `cup` in the entry endpoint. The `cup_status` array follows the same format as the `status` entry under `leagues` > `cup` in the entry endpoint. Example:
+
+```javascript
+{
+  'cup_matches' : [...],
+  'cup_status' : {...}
+}
 ```
